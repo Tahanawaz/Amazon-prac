@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.nav{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazone logo.png");
+    background-size: cover;
+    
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    color: white;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    
+    background-color:orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.input-search{
+    width: 100%;
+    font-size :1rem;
+border: none;
+}
+.searxh-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+span{
+    color:#cccccc;
+    font-size: 0.80rem;
+}
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+.cart-icon{
+    font-size: 25px;
+}
+.panel{
+    background-color:#222f3d;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-list{
+    color: white;
+}
+.all{
+    font-size: 1rem;
+    font-weight: 700;
+    color:white;
+}
+.panel-ops a {
+    color: white;
+    text-decoration: none;
+margin-right: 20px;
+margin-left: 10px;
+    
+}
+.panel-ops a:hover{
+    color: aqua;
+    
+}
+.panel-ops{
+    width: 80%;
+}
+.panel-deals{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.hero{
+    background-image: url("hero.jpg");
+    
+    height: 600px;
+    background-size: cover;
+    display: flex;
+align-items: flex-end;
+
+justify-content: center;
+    
+}
+.hero-msg{
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 70%;
+    margin-bottom: 200px;
+    
+}
+.hero-msg a{
+    color:rgb(36, 180, 236);
+}
+.shope{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: #e2e7e6; 
+}
+.box{
+    background-color: white;
+    border: none;
+    height: 300px;
+width: 23%;
+padding: 20px 0px 15px;
+}
+.box:hover{
+    border: 0.5px solid black;
+}
+h3{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.box1-img{
+    background-image: url("jwelery.jpeg");
+    height: 250px;
+    
+}
+.img-cap{
+    text-decoration: none;
+    color: black;
+}
+.img-cap:hover{
+    color:blue;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.box2-img{
+    background-image: url("watch.jpeg");
+    height: 250px;
+}
+.box3-img{
+    background-image: url("laptop.jpeg");
+    height: 250px;
+}
+.box4-img{
+    background-image: url("clothes.jpeg");
+    height: 250px;
+}
+.box5-img{
+    background-image: url("sports.jpeg");
+    height: 250px;
+}
+.box6-img{
+    background-image: url("toys.jpeg");
+    height: 250px;
+}
+
+.box7-img{
+    background-image: url("car.jpeg");
+    height: 250px;
+}
+.box8-img{
+    background-image: url("skin care.jpeg");
+    height: 250px;
+}
+footer{
+    background-color: #222f3d;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anchor{
+   display:block;
+   justify-content: center;
+   align-items: center;
+}
+.anchor a{
+    color: #b3b6b5;
+    text-decoration: none;
+   padding-right: 15px;
+}
+.anchor a:hover{
+    color: white;
+    text-decoration: underline;
+}
+p{
+    color: #b3b6b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
